@@ -1,0 +1,15 @@
+class Associate:
+    store = 'Home Depot'
+    
+    def __init__(self, name, department, position):
+        self.name = name
+        self.department = department
+        self.position = position
+    def associate_info(self):
+        print(self.name,'is a',self.store,self.department,self.position)
+
+a1 = Associate('Brennen','Flooring','Specialist')
+a2 = Associate('Rileigh','Deliveries','Order Fulfiller')
+a3 = Associate('Claudia','Front End','Cashier')
+
+a3.associate_info()
